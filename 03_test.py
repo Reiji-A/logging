@@ -6,7 +6,7 @@ detail_formatting = "%(relativeCreated)08d[ms] - %(name)s - %(levelname)s - %(pr
 logging.basicConfig(
     level = logging.DEBUG,
     format = detail_formatting,#出力のformatも変えられる
-    filename = "./sample.log")#logファイルのあるか
+    filename = "./sample.log"#logファイルのあるか
 
 # sys.stderrのloggerの設定
 # http://docs.python-guide.org/en/latest/writing/logging/#example-configuration-directly-in-code も参考になる
